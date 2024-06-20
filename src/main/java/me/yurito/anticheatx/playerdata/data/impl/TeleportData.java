@@ -9,9 +9,6 @@ public class TeleportData implements Data {
 
     @Override
     public void process(Packet packet) {
-        /*
-        Handle the packet
-         */
     }
 
     public int getTeleportTicks() {

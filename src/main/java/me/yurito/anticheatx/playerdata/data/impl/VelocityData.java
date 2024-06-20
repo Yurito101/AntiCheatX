@@ -7,8 +7,5 @@ public class VelocityData implements Data {
 
     @Override
     public void process(Packet packet) {
-        /*
-        Handle the packet
-         */
     }
 }
