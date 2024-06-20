@@ -47,9 +47,6 @@ public class ActionData implements Data {
 
     @Override
     public void process(Packet packet) {
-        /*
-        Handle the packet
-         */
     }
 
     public int getLastRidingTicks() {
