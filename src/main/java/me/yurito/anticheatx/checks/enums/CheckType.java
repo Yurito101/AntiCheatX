@@ -22,7 +22,7 @@ public enum CheckType {
     REACH("Reach", CheckCategory.COMBAT),
     VELOCITY("Velocity", CheckCategory.COMBAT),
     INVENTORY("Inventory", CheckCategory.PLAYER),
-    INTERACT("Interact", CheckCategory.PLAYER),
+    FASTPLACE("FastPlace", CheckCategory.PLAYER),
     FASTCLIMB("FastClimb", CheckCategory.MOVEMENT),
     HITBOX("Hitbox", CheckCategory.COMBAT);
 
