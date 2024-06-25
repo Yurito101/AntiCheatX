@@ -23,6 +23,7 @@ public enum CheckType {
     VELOCITY("Velocity", CheckCategory.COMBAT),
     INVENTORY("Inventory", CheckCategory.PLAYER),
     FASTPLACE("FastPlace", CheckCategory.PLAYER),
+    FASTUSE("FastUse", CheckCategory.PLAYER),
     FASTCLIMB("FastClimb", CheckCategory.MOVEMENT),
     HITBOX("Hitbox", CheckCategory.COMBAT);
 
