@@ -1,7 +1,7 @@
 package me.yurito.anticheatx.utils.custom;
 
 import me.yurito.anticheatx.checks.types.annotations.Testing;
-import me.yurito.anticheatx.checks.impl.movement.speed.SpeedH;
+import me.yurito.anticheatx.checks.impl.movement.speed.SpeedA;
 import me.yurito.anticheatx.checks.types.Check;
 import me.yurito.anticheatx.managers.profile.Profile;
 import me.yurito.anticheatx.processors.Packet;
@@ -37,7 +37,7 @@ public class CheckHolder {
                 /*
                 Speed
                  */
-                new SpeedH(this.profile)
+                new SpeedA(this.profile)
         );
 
         /*

@@ -7,8 +7,8 @@ import me.yurito.anticheatx.managers.profile.Profile;
 import me.yurito.anticheatx.playerdata.data.impl.MovementData;
 import me.yurito.anticheatx.processors.Packet;
 
-public class SpeedH extends Check {
-    public SpeedH(Profile profile) {
+public class SpeedA extends Check {
+    public SpeedA(Profile profile) {
        super(profile, CheckType.SPEED, "A", CheckCategory.MOVEMENT);
     }
 
