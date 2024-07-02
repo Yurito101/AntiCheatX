@@ -29,7 +29,7 @@ public class SpeedA extends Check {
 
         if (deltaY > 1.5F && deltaXZ > .15D && squaredAccel < 1.0E-5) {
 
-            fail("Speed Detections");
+            fail();
         }
     }
 }
