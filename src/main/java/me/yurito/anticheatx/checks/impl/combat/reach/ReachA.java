@@ -28,7 +28,7 @@ public class ReachA extends Check implements Listener {
 
     private static final ExecutorService ASYNC_CHECK_EXECUTOR = Executors.newFixedThreadPool(1337);
 
-    private final double MAX_REACH = 3 + 1.0E-49D;
+    private final double MAX_REACH = 3.000000001D;
 
     @EventHandler
     public void onReach(final EntityDamageByEntityEvent e) {
