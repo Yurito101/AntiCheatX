@@ -28,7 +28,7 @@ public class AimA extends Check {
 
             if (increaseBuffer() > 5) {
 
-                fail("Aim Detections");
+                fail();
             }
 
         } else decreaseBufferBy(0.25);
