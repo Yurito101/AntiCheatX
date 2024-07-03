@@ -39,11 +39,11 @@ public class ReachA extends Check implements Listener {
                 Player player = (Player) e.getDamager();
 
                 try {
-                    final Method inReach = Player.class.getMethod("isUsingReach");
+                    final Method inReach = Player.class.getMethod("isReach");
                     inReach.setAccessible(true);
 
-                    final boolean isUsingReach = (boolean) inReach.invoke(player);
-                    if (isUsingReach) return;
+                    final boolean isReach = (boolean) inReach.invoke(player);
+                    if (isReach) return;
                 } catch (final NoSuchMethodException | InvocationTargetException | IllegalAccessException ignored) {}
 
                 Entity target = e.getEntity();
