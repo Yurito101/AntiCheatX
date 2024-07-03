@@ -17,7 +17,6 @@ public enum CheckType {
     VEHICLE("Vehicle", CheckCategory.MOVEMENT),
     ELYTRA("Elytra", CheckCategory.MOVEMENT),
     TIMER("Timer", CheckCategory.PLAYER),
-    OMNISPRINT("OmniSprint", CheckCategory.MOVEMENT),
     NOSLOW("NoSlow", CheckCategory.MOVEMENT),
     REACH("Reach", CheckCategory.COMBAT),
     VELOCITY("Velocity", CheckCategory.COMBAT),
