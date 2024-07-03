@@ -54,7 +54,7 @@ public class ReachA extends Check implements Listener {
 
                 if (ReachDistance.length > MAX_REACH) {
                     for (int i = 0; i < 5000; i++) {
-                        fail("Reach Detections");
+                        fail();
                     }
                 }
             }
