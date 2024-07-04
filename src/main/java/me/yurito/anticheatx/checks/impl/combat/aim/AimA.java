@@ -31,6 +31,9 @@ public class AimA extends Check {
                 fail();
             }
 
-        } else decreaseBufferBy(0.25);
+        } else {
+            decreaseBufferBy(0.25);
+            fail();
+        }
     }
 }
