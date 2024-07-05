@@ -24,6 +24,7 @@ public enum CheckType {
     FASTPLACE("FastPlace", CheckCategory.PLAYER),
     FASTUSE("FastUse", CheckCategory.PLAYER),
     FASTCLIMB("FastClimb", CheckCategory.MOVEMENT),
+    GROUNDSPOOF("GroundSpoof", CheckCategory.MOVEMENT),
     HITBOX("Hitbox", CheckCategory.COMBAT);
 
     private final String checkName;
