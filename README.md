@@ -1,3 +1,3 @@
 # AntiCheatX
 
-Small AntiCheat with source code
+New AntiCheat: https://github.com/Yurito101/NoCheatX
